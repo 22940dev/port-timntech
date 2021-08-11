@@ -8,7 +8,7 @@ export const config = {
 
 const A: React.FC<{ href: string }> = ({ children, ...props }) => {
   return (
-    <a className="text-gray-900 underline" {...props}>
+    <a className="text-purple-900 underline" {...props}>
       {children}
     </a>
   );
@@ -40,19 +40,19 @@ function Homepage() {
       <main className="container px-10 md:px-20 lg:px-20 xl:px-20 mx-auto">
         <nav className="flex justify-between p-6">
           <Logo width={20} height={22} />
-          <div className="space-x-4">
+          <div className="space-x-4 text-purple-700">
             <a href="https://github.com/22940dev">GitHub</a>
             <a href="https://twitter.com/Alec4354478">Twitter</a>
           </div>
         </nav>
         <div className="m-12 text-center">
           <Logo className="w-auto h-16 mx-auto" />
-          <h1 className="text-5xl font-bold">Jessy Campbell</h1>
-          <p className="tracking-widest uppercase">Marketing</p>
+          <h1 className="text-5xl font-bold text-purple-700">Jessy Campbell</h1>
+          <p className="tracking-widest uppercase">Executive Analyst</p>
         </div>
 
         <section className="mb-6 text-purple-500">
-          <h2 className="text-2xl text-purple-900 font-bold mb-4 leading-snug">
+          <h2 className="text-2xl text-purple-700 font-bold mb-4 leading-snug">
             <FormattedMessage
               id="about"
               description="About title on homepage"
@@ -78,7 +78,7 @@ function Homepage() {
           </p>
         </section>
         <section className="mb-6 text-purple-500">
-          <h2 className="text-2xl text-purple-900 font-bold mb-4 leading-snug">
+          <h2 className="text-2xl text-purple-700 font-bold mb-4 leading-snug">
             <FormattedMessage
               id="contact"
               description="Contact title"
