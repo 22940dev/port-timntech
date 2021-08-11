@@ -26,7 +26,7 @@ const titleMessage = defineMessage({
   id: "home-seo-description",
   description: "SEO description of the homepage",
   defaultMessage:
-    "Hi! I'm Tim Neutkens, a software engineer from The Netherlands.",
+    "Hi! I'm Jessy Campbell, a lead analyst for Hilton Properties.",
 });
 
 function Homepage() {
@@ -34,21 +34,21 @@ function Homepage() {
   return (
     <>
       <Head>
-        <title>Tim Neutkens</title>
+        <title>Jessy Campbell</title>
         <meta name="description" content={intl.formatMessage(titleMessage)} />
       </Head>
       <main className="container px-10 md:px-20 lg:px-20 xl:px-20 mx-auto">
         <nav className="flex justify-between p-6">
           <Logo width={20} height={22} />
           <div className="space-x-4">
-            <a href="https://github.com/timneutkens">GitHub</a>
-            <a href="https://twitter.com/timneutkens">Twitter</a>
+            <a href="https://github.com/22940dev">GitHub</a>
+            <a href="https://twitter.com/Alec4354478">Twitter</a>
           </div>
         </nav>
         <div className="m-12 text-center">
           <Logo className="w-auto h-16 mx-auto" />
-          <h1 className="text-5xl font-bold">Tim Neutkens</h1>
-          <p className="tracking-widest uppercase">Development</p>
+          <h1 className="text-5xl font-bold">Jessy Campbell</h1>
+          <p className="tracking-widest uppercase">Marketing</p>
         </div>
 
         <section className="mb-6 text-gray-700">
@@ -63,13 +63,13 @@ function Homepage() {
             <FormattedMessage
               id="intro"
               description="Introduction"
-              defaultMessage="Hello! I'm Tim Neutkens, a software engineer from The Netherlands."
+              defaultMessage="Hello! I'm Jessy Campbell, a lead analyst for Hilton Properties."
             />
             <br />
             <FormattedMessage
               id="you-might-know-me"
               description="Introduction paragraph"
-              defaultMessage="You might know me as one of the authors of <NextjsLink>Next.js</NextjsLink> a popular open-source web development framework built on top of <ReactLink>React</ReactLink>."
+              defaultMessage="You may also know me as a mother of two girls. Wife to <NextjsLink>Wesley Wiggins</NextjsLink>.  Horse enthusiasts and Jewish <ReactLink>princess</ReactLink>."
               values={{
                 NextjsLink: (chunks: any) => <NextjsLink>{chunks}</NextjsLink>,
                 ReactLink: (chunks: any) => <ReactLink>{chunks}</ReactLink>,
@@ -91,12 +91,12 @@ function Homepage() {
               description="Contact details"
               defaultMessage="Want to reach out? Contact me by <email></email>, <twitter></twitter>, or <github></github>"
               values={{
-                email: () => <A href="mailto:hello@timn.tech">Email</A>,
+                email: () => <A href="mailto:freeunioncoder@gmail.com">Email</A>,
                 twitter: () => (
-                  <A href="https://twitter.com/timneutkens">Twitter</A>
+                  <A href="https://twitter.com/Alec4354478">Twitter</A>
                 ),
                 github: () => (
-                  <A href="https://github.com/timneutkens">GitHub</A>
+                  <A href="https://github.com/22940dev">GitHub</A>
                 ),
               }}
             />
