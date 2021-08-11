@@ -51,8 +51,8 @@ function Homepage() {
           <p className="tracking-widest uppercase">Marketing</p>
         </div>
 
-        <section className="mb-6 text-gray-700">
-          <h2 className="text-2xl text-gray-900 font-bold mb-4 leading-snug">
+        <section className="mb-6 text-purple-500">
+          <h2 className="text-2xl text-purple-900 font-bold mb-4 leading-snug">
             <FormattedMessage
               id="about"
               description="About title on homepage"
@@ -77,8 +77,8 @@ function Homepage() {
             />
           </p>
         </section>
-        <section className="mb-6 text-gray-700">
-          <h2 className="text-2xl text-gray-900 font-bold mb-4 leading-snug">
+        <section className="mb-6 text-purple-500">
+          <h2 className="text-2xl text-purple-900 font-bold mb-4 leading-snug">
             <FormattedMessage
               id="contact"
               description="Contact title"
