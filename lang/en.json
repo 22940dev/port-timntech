@@ -20,7 +20,7 @@
     "description": "Introduction"
   },
   "you-might-know-me": {
-    "defaultMessage": "You might know me as one of the authors of <NextjsLink>Next.js</NextjsLink> a popular open-source web development framework built on top of <ReactLink>React</ReactLink>.",
+    "defaultMessage": "You may also know me as a mother of two girls. Wife to <NextjsLink>Wesley Wiggins</NextjsLink>.  Horse enthusiasts and Jewish <ReactLink>princess</ReactLink>.",
     "description": "Introduction paragraph"
   }
 }
